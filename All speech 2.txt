@@ -1,0 +1,90 @@
+Point 1 ruksar -- DONE
+Point 2 Farhan -- DONE
+Point 3 jubayer --DONE
+Point 4 mahamuda -DONE
+Point 5 Nahin --DONE
+Point 6 sabbir --DONE
+
+
+Ruksar:
+How would you feel if someone was constantly watching you… listening to everything you say… and collecting every bit of information about you?
+How would you feel? Would you tolerate it?
+If not, then why do we accept it when it happens around us without us even noticing?
+Good morning everyone. I’m Ruksar Rafi Rahman, and today, along with my team, I’m here to talk about something that affects every single one of us — Silent Surveillance.
+Silent surveillance means information about us is being gathered quietly — without noise, without warning, and often without our knowledge. It’s happening in the background every time we scroll, tap, search, shop, or simply carry our phones around.
+It observes the patterns we follow, the posts we like, the places we visit, and even the people we interact with. And the most concerning part? It feels invisible. We don’t see it, but it sees us. We don’t think about it, but it constantly studies us.
+This type of surveillance doesn’t need cameras in every corner or someone physically following us.
+Instead, it works through the digital footprints we leave behind — our location data, our browsing history, our online habits, even our voice commands. All these tiny pieces of information come together to create a detailed picture of who we are.
+And what’s even more alarming is that we rarely question it. We accept it, sometimes without choice, because it’s built into the apps, devices, and services we use every day. We trade privacy for convenience, often without realizing what we’re giving up.
+So where does this silent surveillance actually exist? How does it affect our freedom, our behavior, and even the way we think?
+To answer that, and to dive deeper into the hidden layers behind it,
+I’d now like to call Farhan Al Nahian, who will explain it further.
+Thank you for having me.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+Farhan:
+Silent Surveillance in Everyday Technology
+Hello everyone. My part of the presentation is about how everyday technology silently watches us. We call this silent surveillance. It means companies are watching our actions and collecting our data without us always knowing or agreeing clearly. It happens all the time on the devices we use daily.
+Think about your smartphone. The apps on it track where you go, what you search for, and what you buy. They use this information to send you targeted ads. Even when you're not using the phone, its microphone and camera can be a pathway for data collection. This watching is often hidden in the fine print.
+Next, look at smart home devices . Your smart speaker, like Alexa or Google Home, is always listening for its wake word. Smart TVs also watch what shows and movies you stream. All this data—your habits, your interests, and even your voice—is sent back to big companies. They use it to build a detailed profile of who you are.
+The key takeaway is that silent surveillance is a hidden cost of convenience. We need to be aware of how much data we share.  Now I would like to invite Jubayer Ahmed Mahi to explain silent surveillance in online activity.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+Jubayer:
+Silent surveillance in online activities means tracking what we do on the internet without us noticing.
+When we visit websites, use social media, or search for something, our data gets collected in the background.
+Many platforms use cookies to save our browsing behavior.
+Social media apps like Facebook, Instagram, and YouTube track what we like, share, and even how long we watch videos.
+Search engines save our search history, and our IP address can also show our location.
+
+The biggest example is online ads. If we search for phones or shoes, we start seeing those same ads everywhere.
+This happens because companies follow our digital activity silently to show personalized ads and make money.
+
+Silent surveillance helps improve services, but users often don’t know how much data is being taken, which can be risky for privacy.
+That is why it is important to be careful about our online footprint and control our data whenever possible."**
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+Mahamuda:
+Messenger
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+Nahin:
+silent surveillance takes away people’s privacy. Websites and apps can collect information without telling users, so people don’t know what is being recorded.
+
+Online data can be misused. Collected information may be shared, sold or used to target someone in harmful ways.
+
+Tracking people without their consent is another major problem. Users often have no idea that their location, browsing history or online activity is being tracked.
+
+Silent surveillance reduces personal freedom. When people feel watched online, they avoid expressing their real thoughts and feel less safe.
+
+Silent surveillance creates fear. People become stressed and overly careful because they think someone is watching their online actions.
+
+It can also lead to manipulation. Companies or groups can use collected data to control what people see, think or buy.
+
+Silent surveillance harms trust. Users start losing trust in websites, apps and social media platforms.
+
+It also increases cyber risks. If secretly collected data is hacked, many people can be affected at the same time.
+
+so we should start paying attention to app permissions and privacy settings.
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+Sabbir:
+Hello everyone, I think you guys might be a bit scared after hearing all the stuffs. Its very concerning how our datas are being collected without our concern. But dont worry we can protect our data with some simple 
+daily life habbits.
+Most apps collect data by default but what we can do is
+1. turn off Location, Camera and Microphone access from always to when needed
+2. Disable Background App refresh (so apps dont track when we are not using them)
+3. On phones check App permissons every month
+Apps uses APIs like GPS,Bluetooth and network sensors to track movement. Disabling these will limit the tracking.
+Then make sure what permission you are granting.
+For example a simple flashlight app should not need your location or contacts
+then when we are browsing internet use Incognito Mode and clear cookies regularly and use VPN for extra safety so they can not get track our location.
+and avoid public wifi..why avoid it? in public networks a hacker can easily intercept data and steal your information..these public wifi often lack proper encryption.So dont share confedencial data over public wifis.
+and lastly keep your device up to date for new security features
+These daily life habits can protect our data and keep us safe from the risk of silent surveillance
+Thank You
+
+

@@ -1,0 +1,18 @@
+Hello everyone, you guys might be afraid how your datas are being collected without your knowlodge. Its very concerning how our datas are being collected without out concern. But we take prevent this from happening with some simple 
+daily life habbits.
+Most apps collect data by default but what we can do is
+1. turn off Location, Camera and Microphone access except when needed
+2. Disable Background App refresh (so apps dont track when we are not using them)
+3. On phones check App permissons every month
+Apps uses APIs like GPS,Bluetooth and network sensors to track movement. Reducing permissions limits these tracks
+
+Control App permissons
+Check for app permissions are disable what is not needed.
+For example a simple flashlight app should not need your location or contacts
+
+then when we browse internet they collect so many data of us too. What we should do is use Incognito Mode  and clear cookies regularly and use VPN for extra safety so they can not get our location
+then avoid public wifi..why avoid it? in public networks a hacker can easily intercept data and steal your information..these public wifi often lack proper encription
+and lastly keep your device up to date for new security features
+
+These daily life habits can protect our data and keep us safe from silent surveillance
+Thank You
