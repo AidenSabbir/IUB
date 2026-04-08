@@ -1,4 +1,13 @@
-import pygame,sys,os
+import sys
+import subprocess
+import os
+
+try:
+    import pygame
+except ImportError:
+    print("Installing pygame...")
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "pygame"])
+    import pygame
 def resource_path(relative_path):
     try:
         base_path = sys._MEIPASS
@@ -23,7 +32,7 @@ class Game():
         self.draws = 0
         self.turn = 'X'
         self.res = [[0]*3,[0]*3,[0]*3]
-        self.font = pygame.font.SysFont(None,40)
+        self.font = pygame.font.SysFont(resource_path("fonts/Boldonse-Regular.ttf"),40)
         self.x_img = pygame.transform.scale(pygame.image.load(resource_path("X.png")), (self.W//4,self.W//4))
         self.o_img = pygame.transform.scale(pygame.image.load(resource_path("O.png")), (self.W//4,self.W//4))
         x_text = self.font.render(f'X: {self.x_point}', True, 'black')
@@ -34,21 +43,21 @@ class Game():
         self.sc.blit(o_text,(100,5))
         self.sc.blit(d_text,(5,35))
         self.sc.blit(xo_text,(5,65))
-        pygame.draw.line(self.sc,'red',(0,self.H-2),(W,self.H-2),5)
+        pygame.draw.line(self.sc,'white',(0,self.H-2),(W,self.H-2),5)
         for i in range(1,3):
-            pygame.draw.line(self.sc,'black',((W//3)*i,self.H),((W//3)*i,self.H+W),3)
-            pygame.draw.line(self.sc,'black',(0,((W//3)*i)+self.H),(W,((W//3)*i)+self.H),3)
+            pygame.draw.line(self.sc,'white',((W//3)*i,self.H),((W//3)*i,self.H+W),5)
+            pygame.draw.line(self.sc,'white',(0,((W//3)*i)+self.H),(W,((W//3)*i)+self.H),5)
         pygame.display.update()
     
     def points(self):
         self.res = [[0]*3, [0]*3, [0]*3]
         self.sc.fill(self.bg)
-        pygame.draw.line(self.sc, 'red', (0, self.H - 2), (self.W, self.H - 2), 5)
+        pygame.draw.line(self.sc, 'white', (0, self.H - 2), (self.W, self.H - 2), 5)
         for i in range(1, 3):
-            pygame.draw.line(self.sc, 'black', ((self.W//3)*i, self.H), ((self.W//3)*i, self.H + self.W), 3)
-            pygame.draw.line(self.sc, 'black', (0, ((self.W//3)*i) + self.H), (self.W, ((self.W//3)*i) + self.H), 3)
+            pygame.draw.line(self.sc, 'white', ((self.W//3)*i, self.H), ((self.W//3)*i, self.H + self.W), 5)
+            pygame.draw.line(self.sc, 'white', (0, ((self.W//3)*i) + self.H), (self.W, ((self.W//3)*i) + self.H), 5)
         pygame.draw.rect(self.sc, self.bg, (0, 0, self.W, self.H - 5))
-        pygame.draw.line(self.sc, 'red', (0, self.H - 2), (self.W, self.H - 2), 5)
+        pygame.draw.line(self.sc, 'white', (0, self.H - 2), (self.W, self.H - 2), 5)
         x_text = self.font.render(f'X: {self.x_point}', True, 'black')
         o_text = self.font.render(f'O: {self.o_point}', True, 'black')
         d_text = self.font.render(f'Draw: {self.draws}', True, 'black')
@@ -92,9 +101,9 @@ class Game():
         return 0
     def show_winer(self,res):
         font = pygame.font.SysFont(None,35)
-        win = font.render(f"{res} won",True,'red')
+        win = font.render(f"{res} won",True,'white')
         if res == 'draw':
-            win = font.render(f"{res}",True,'red')
+            win = font.render(f"{res}",True,'white')
         self.sc.blit(win,(120,35))
         pygame.display.update()
         
@@ -134,6 +143,6 @@ class Game():
                             self.turn = 'X'
                         
 
-ttt = Game(300,60,'#FF9CD3')
+ttt = Game(300,60,"#FFAE00")
 ttt.run()
      
