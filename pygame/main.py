@@ -1,23 +1,9 @@
-import sys
-import subprocess
-import os
-
-try:
-    import pygame
-except ImportError:
-    print("Installing pygame...")
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "pygame"])
-    import pygame
-def resource_path(relative_path):
-    try:
-        base_path = sys._MEIPASS
-    except Exception:
-        base_path = os.path.abspath(".")
-
-    return os.path.join(base_path, relative_path)
-class Game():
+import pygame
+class Game:
     def __init__(self,W,fps,bg):
         pygame.init()
+        icon = pygame.image.load('icon.png')
+        pygame.display.set_icon(icon)
         pygame.display.set_caption('TIC TAC TOE')
         self.clock = pygame.time.Clock()
         self.fps = fps
@@ -32,9 +18,9 @@ class Game():
         self.draws = 0
         self.turn = 'X'
         self.res = [[0]*3,[0]*3,[0]*3]
-        self.font = pygame.font.SysFont(resource_path("fonts/Boldonse-Regular.ttf"),40)
-        self.x_img = pygame.transform.scale(pygame.image.load(resource_path("X.png")), (self.W//4,self.W//4))
-        self.o_img = pygame.transform.scale(pygame.image.load(resource_path("O.png")), (self.W//4,self.W//4))
+        self.font = pygame.font.SysFont("fonts/Boldonse-Regular.ttf",40)
+        self.x_img = pygame.transform.scale(pygame.image.load("X.png"), (self.W//4,self.W//4))
+        self.o_img = pygame.transform.scale(pygame.image.load("O.png"), (self.W//4,self.W//4))
         x_text = self.font.render(f'X: {self.x_point}', True, 'black')
         o_text = self.font.render(f'O: {self.o_point}', True, 'black')
         d_text = self.font.render(f'Draw: {self.draws}', True, 'black')
@@ -112,7 +98,7 @@ class Game():
             self.clock.tick(self.fps)
             for e in pygame.event.get():
                 if e.type == pygame.QUIT:
-                    pygame.quit(),sys.exit()
+                    pygame.quit()
                 if e.type == pygame.KEYDOWN:
                     if e.key == pygame.K_r:
                         self.reset()
@@ -143,6 +129,6 @@ class Game():
                             self.turn = 'X'
                         
 
-ttt = Game(300,60,"#FFAE00")
+ttt = Game(300,60,"#FF9100")
 ttt.run()
      
